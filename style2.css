@@ -1,0 +1,85 @@
+/*about,services,contact page css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  justify-content: center;
+  background-image: url(background.avif);
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color:rgb(7, 113, 219);
+  color: rgb(28, 187, 245);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color:black;
+  text-decoration: none;
+}
+
+
+section {
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 500px;
+  text-shadow: black;
+  
+
+}
+
+h1,
+h2 {
+  color: #13db1a;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 1.0);
+  
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid black;
+}
